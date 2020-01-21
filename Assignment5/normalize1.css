@@ -1,0 +1,125 @@
+
+#main{
+    min-width: 1200px;
+    margin: auto;
+}
+/* Making header  background and font color */
+header{
+    padding: 10px;
+    background-color: rgb(223, 170, 247);
+    border: 1px solid black;
+    margin: 30px;
+    text-align: center;
+}
+
+header h1{
+    font-family: 'Merienda', cursive;
+    font-size: 50px;
+    color:white;
+
+}
+
+/* Making body background, color and style*/
+#body{
+    width: 60em;
+    display: inline-block;
+    padding: 10px;
+    background-color: whitesmoke;
+    border: 1px dashed black;
+    margin: 20px 40px 10px 40px;
+}
+
+section h3{
+    text-align: center;
+    font-size: 25px;
+    font-family: 'Merienda', cursive;
+}
+
+section p{
+    font-family:'Indie Flower', cursive;
+}
+
+
+/* Making the form section with background, color and style*/
+
+#form{
+    margin:0 35%;
+    width: auto;
+    display: inline-block;
+    padding: 10px;
+    border: 1px dashed black;
+    background-color: whitesmoke;
+}
+
+/* Making the fields and bottom the same size */
+
+input, textarea{
+    font: 1em sans-serif;
+    width: 300px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+
+}
+
+input[type=button], input[type=submit], input[type=reset]{
+    width: 80px;
+    text-decoration: none;
+    border: 1px solid black;
+}
+
+/* Making side panel with background color when hover, visited, link and active */
+li a:link{
+    color: aqua;
+}
+
+li a:visited{
+    color: blueviolet;
+}
+
+li:hover {
+    background-color:royalblue;
+}
+
+
+/*Making side panel with background color, center and borders */
+
+aside{
+    width: 300px;
+    height: 400px;
+    float: right;
+    background-color: white;
+    border: 1px solid black;
+    margin: 20px;
+}
+
+aside h4{
+    text-align: center;
+    font-family: 'Gaegu', cursive;
+}
+.center{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+aside a img{
+    width: 200px;
+    height: 150px;
+    
+}
+
+/* Making footer center with backgrount and font color */
+footer{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgb(223, 170, 247);
+    border: 1px solid black;
+    text-align: center;
+}
+
+footer p{
+    color: white;
+}

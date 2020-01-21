@@ -1,0 +1,140 @@
+/********************************************************************************* 
+* 
+* WEB222 – Assignment #4b 
+* 
+* I declare that this assignment is my own work in accordance with Seneca 
+* Academic Policy. No part of this assignment has been copied manually or 
+* electronically from any other source (including web sites) or distributed to 
+* other students. 
+* 
+* Name: __Elisa Ng___ Student ID: __136265170__ Date: _July 15,2018_________ 
+* 
+********************************************************************************/
+
+
+/* Adjust size and position in the "main-container" */
+
+.main-container{
+    max-width: 960px;
+    margin: 0 auto 0 auto;
+}
+
+/* Select all <nav> elements that are a child 
+of an element with class “main-container” 
+and adjust it’s size and position */
+
+.main-container nav{
+    width: 30%;
+    float: left;
+}
+
+/* Adjust size and position in the "main-container" */
+
+.main-container .main{
+    width: 70%;
+    float: right;
+}
+
+/* Select all <header> elements that are a child 
+of an element with class “main-container” 
+and adjust it’s size, position, background color and borders */
+
+.main-container header{
+    padding: 10px;
+    background-color: #eeeeee;
+    border-bottom: 1px solid #cccccc;
+    margin-bottom: 30px;
+}
+
+/* Select all <h1> elements that are a child 
+of an element with class “main-container” 
+and adjust it’s size, position and font size */
+
+.main-container header h1{
+    width: 70%;
+    font-size: 24px;
+    float: right;
+    text-align: right;
+    margin-top: 10px;
+}
+
+/* Select all <footer> elements that are a child 
+of an element with class “main-container” 
+and adjust it’s size, position, background color and borders */
+
+.main-container footer{
+    clear: both;
+    padding: 20px 10px 20px 10px;
+    background-color: #eeeeee;
+    border-top: 1px solid #cccccc;
+    font-size: 13px; 
+}
+
+/* Select all logos and adjust it's size  and fonts */
+
+#logo{
+    width: 30%;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+/* Select all logos images and adjust it's size and position */
+
+#logo img{
+    width: 94px;
+    vertical-align: middle;
+}
+
+/* Select all navigators nav and do not show any style */
+
+nav ul{
+    list-style-type: none;
+}
+
+/* Select all navigators nav and adjust it's position and
+ do not show any style decoration */
+
+nav ul a{
+    display: block;
+    text-decoration: none;
+    padding: 5px;
+}
+
+/* Select all province elements that are a child 
+of an element with class “div” 
+and adjust it’s size and  position */
+
+div.province{
+    width: 30%;
+    float: left;
+    margin: 8px;
+    height: 310px;
+}
+
+/* Select all province and descriptions elements that are a child 
+of an element with class “div” 
+and adjust it’s size and  position */
+
+div.province .description{
+    max-height: 165px;
+    overflow-y: auto;
+    overflow-x: hidden;
+    margin: 8px 0 8px 0;
+}
+
+/* Select all province elements that are a child 
+of an element with class “div” 
+and adjust it’s size, position, color and text decoration */
+
+div.province a{
+   display: block;
+   text-align: center;
+   background-color: #555555;
+   color: #eeeeee;
+   text-decoration: none;
+   padding:  5px;
+}
+
+img.flag{
+    width: 100%;
+}

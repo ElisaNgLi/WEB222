@@ -1,0 +1,61 @@
+/* Place all of your CSS Code in this file */
+
+/********************************************************************************* 
+*
+* WEB222 – Assignment #4a
+*
+* I declare that this assignment is my own work in accordance with Seneca 
+* Academic Policy. No part of this assignment has been copied manually or 
+* electronically from any other source (including web sites) or distributed to 
+* other students. 
+* 
+* Name: __Elisa Ng___ Student ID: ___136265170___ Date: ___July 14,2018_________ 
+* 
+********************************************************************************/
+
+body{
+    color: rgb(0, 0, 0);
+}
+
+nav, footer {
+    background-color: rgb(235, 100, 100);
+}
+
+header{
+    background-color: lightpink;
+    border: 1px solid rgb(235, 100, 100);
+}
+
+h1.app-title{
+    font-family: 'Dancing Script', cursive;
+    font-size: 45px;
+    color: grey;
+}
+
+div.main-table-container{
+    max-height: 500px;
+    overflow-y: scroll;
+    width: 100%
+
+}
+
+table.main-table-top th{
+    background-color: rgb(235, 65, 85);
+    padding: 20px;
+    font-size: 20px;
+    border: 1px solid rgb(235, 100, 100);
+}
+
+table.main-table td{
+    padding: 20px;
+    font-size: 15px;
+    border: 1px solid rgb(235, 100, 100);
+    vertical-align: top;
+}
+
+table.main-table p span{
+    text-align: center;
+    font-style: oblique;
+    font-family: 'Gloria Hallelujah', cursive;
+    font-size: 15px;
+}
